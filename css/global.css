@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 body {
 	font-family: 'Raleway', sans-serif;
 	padding-top: 50px;
@@ -43,6 +45,7 @@ nav {
 
 .cardsection {
 	padding-bottom: 150px;
+
 }
 
 .header2 {
@@ -62,8 +65,7 @@ nav {
 
 .card {
 	border-style: none;
-	box-shadow: .25px .25px 15px grey;
-	width: 70px;
+	box-shadow: 0px 10px 40px #E3E3E3;
 }
 
 .card-title {
@@ -71,7 +73,20 @@ nav {
 }
 
 
-/* SHORT TEXT SECTION */
+/* MSG SECTION */
+
+.msgsection {
+	background-color: #FBB57D;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 250px;
+	padding-right: 250px;
+	font-family: 'Montserrat', sans-serif, 500;
+	box-shadow: .25px .25px 15px grey;
+}
 
 /* CONTACT SECTION */
 
