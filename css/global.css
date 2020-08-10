@@ -18,6 +18,16 @@ nav {
   padding-left: 15px;
 }
 
+.dropdown-menu {
+  font-size: 12px;
+}
+
+
+.dropdown-item a:active {
+  background-color: #EB0D8C !important;
+  color: #ffff !important;
+}
+
 .navbar-brand {
   padding-left: 20px;
   padding-bottom: 15px;
