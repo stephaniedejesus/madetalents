@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat|Roboto&display=swap');
 
 body {
-	font-family: 'Raleway', sans-serif;
+
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
@@ -11,6 +11,7 @@ body {
 /* NAV */
 
 nav {
+	font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
 
@@ -45,6 +46,7 @@ nav {
 
 .cardsection {
 	padding-bottom: 150px;
+	font-family: 'Raleway', sans-serif;
 
 }
 
@@ -79,12 +81,13 @@ nav {
 	background-color: #FBB57D;
 	color: white;
 	text-align: center;
-	font-size: 35px;
+	font-size: 32px;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	padding-left: 250px;
 	padding-right: 250px;
-	font-family: 'Montserrat', sans-serif, 500;
+	font-family: 'Montserrat';
+	font-weight: 400;
 	box-shadow: .25px .25px 15px grey;
 }
 
@@ -159,7 +162,7 @@ iframe {
   border-radius: 10px;
   overflow: hidden;
   padding: 72px 55px 90px 55px;
-  box-shadow: .25px .25px 15px grey;
+  box-shadow: 0px 10px 40px #E3E3E3;
 }
 
 .contact2-form {
@@ -173,6 +176,8 @@ iframe {
   line-height: 1.2;
   text-align: center;
   padding-bottom: 90px;
+	font-family: 'Montserrat';
+	font-weight: 100;
 }
 
 .wrap-input2 {
@@ -337,7 +342,25 @@ textarea.input2 + .focus-input2::after {
 }
 
 
-
-
-
 /* FOOTER SECTION */
+
+.footer {
+background-color: black;
+color: white;
+text-align: center;
+font-size: 12px;
+padding-top: 40px;
+padding-bottom: 10px;
+padding-left: 250px;
+padding-right: 250px;
+font-family: 'Montserrat';
+}
+
+.icons {
+	justify-content: space-between;
+	padding-bottom: 15px;
+}
+
+.fa-instagram {
+	padding-left: 12px;
+}
