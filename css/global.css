@@ -144,7 +144,7 @@ iframe {
 
 .container-contact2 {
   width: 100%;
-  min-height: 100vh;
+  min-height: 65vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -157,7 +157,7 @@ iframe {
 }
 
 .wrap-contact2 {
-  width: 790px;
+  width: 900px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -359,8 +359,4 @@ font-family: 'Montserrat';
 .icons {
 	justify-content: space-between;
 	padding-bottom: 15px;
-}
-
-.fa-instagram {
-	padding-left: 12px;
 }
