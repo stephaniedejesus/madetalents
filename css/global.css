@@ -25,6 +25,7 @@ nav {
 
 .dropdown-menu {
   font-size: 15px;
+	border: none;
 }
 
 .dropdown-item a:active {
